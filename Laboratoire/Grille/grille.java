@@ -18,6 +18,12 @@ public class grille{
         this.tab = new int[nbLigne][nbColonne];
     }
 
+    public grille(int nbLigne, int nbColonne){
+        this.nbLigne = nbLigne;
+        this.nbColonne = nbColonne;
+        this.tab = new int[nbLigne][nbColonne];
+    }
+
     public void printGrille(){
         for(int i = 0; i< this.nbLigne; i++){
             for(int x = 0; x< this.nbColonne;x++){
