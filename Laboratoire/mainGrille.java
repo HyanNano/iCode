@@ -1,4 +1,6 @@
-public class main{
+import Grille.grille;
+
+public class mainGrille{
     public static void main(String[] args){
         grille map = new grille();
 

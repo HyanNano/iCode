@@ -1,3 +1,4 @@
+package Grille;
 import java.util.Scanner;
 
 public class grille{
